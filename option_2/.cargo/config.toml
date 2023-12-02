@@ -1,0 +1,9 @@
+#  config.toml -*- mode: conf-TOML -*-
+# https://doc.rust-lang.org/cargo/reference/config.html
+
+[alias]
+bsub = "build -p submod --config ./submod/.cargo/config.toml"
+
+[env]
+JG_TEST_VAR = "blah"
+
