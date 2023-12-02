@@ -1,0 +1,6 @@
+#  config.toml -*- mode: conf-TOML -*-
+# https://doc.rust-lang.org/cargo/reference/config.html
+
+[env]
+JG_TEST_VAR = "blah"
+

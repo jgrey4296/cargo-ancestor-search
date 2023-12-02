@@ -1,0 +1,7 @@
+## __config.toml -*- mode: conf-toml -*-
+# https://doc.rust-lang.org/cargo/reference/config.html
+# paths = [] # path dependency overrides
+
+[alias]
+bmain = "build -p chainsearch --config ./chainsearch/.cargo/config.toml"
+bsub  = "build -p submod      --config ./submod/.cargo/config.toml"

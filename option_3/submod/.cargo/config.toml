@@ -1,0 +1,6 @@
+## __config.toml -*- mode: conf-toml -*-
+# https://doc.rust-lang.org/cargo/reference/config.html
+# paths = [] # path dependency overrides
+
+[env]
+# JG_TEST_VAR = "bloo"
