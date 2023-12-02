@@ -93,3 +93,7 @@ and `submod` does *not* need to have an override in it's `config.toml`.
 
 If you *only* clean `chainsearch` (with `cargo clean -p chainsearch`),
 then you can just `cargo bmain` again, and it'll build.
+
+## Unexplored, but maybe possible
+In the cargo source, there is a `search_stop_pth` of the `Config` struct [struct](https://github.com/rust-lang/cargo/blob/ecb9851afd3095e988daaa35a48bc7f3cb748e04/src/cargo/util/config/mod.rs#L177C39-L177C39).
+I haven't found a way to access it yet, but it is a possibility.
